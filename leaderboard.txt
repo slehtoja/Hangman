@@ -7,3 +7,4 @@
 2023-02-01 08:58:15;proov;Elumaja;;7
 2023-02-01 09:01:20;suVILA;Suvila;;8
 2023-02-01 09:07:28;PAranka;Bussijuht;;9
+2023-02-01 09:39:52;Auto Juht;Mercedes;W, T, G, A, H;15
