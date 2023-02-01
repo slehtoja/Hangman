@@ -11,9 +11,6 @@ class Hangman:
 
 
 if __name__ == '__main__':
-    # TODO read commandline db name
-    # TODO if letter inputed second time read as error HOMEWORK
-    # TODO Check leaderboard file exists!
     db_name = None
     if len(argv) == 2:
         if os.path.exists(argv[1]):
