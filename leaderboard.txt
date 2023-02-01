@@ -10,3 +10,6 @@
 2023-02-01 09:39:52;Auto Juht;Mercedes;W, T, G, A, H;15
 2023-02-01 10:25:39;Toyota;Toyota;;7
 2023-02-01 10:31:42;bmw;BMW;;4
+2023-02-01 11:17:39;UNKNOWN;Honda;E;9
+2023-02-01 11:18:02;None;Peugeot;;10
+2023-02-01 11:18:31;None;Volkswagen;;15
