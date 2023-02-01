@@ -9,3 +9,4 @@
 2023-02-01 09:07:28;PAranka;Bussijuht;;9
 2023-02-01 09:39:52;Auto Juht;Mercedes;W, T, G, A, H;15
 2023-02-01 10:25:39;Toyota;Toyota;;7
+2023-02-01 10:31:42;bmw;BMW;;4
