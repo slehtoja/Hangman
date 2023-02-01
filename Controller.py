@@ -1,8 +1,9 @@
-from tkinter import simpledialog
+from tkinter import simpledialog, messagebox
 
 from GameTime import GameTime
 from Model import Model
 from View import View
+from os import path
 
 
 class Controller:
@@ -62,6 +63,9 @@ class Controller:
             self.view.change_image(len(self.model.image_files) - 1)
 
     def click_btn_leaderboard(self):
-        popup_window = self.view.create_popup_window()
-        data = self.model.read_leaderboard_file_contents()
-        self.view.generate_leaderboard(popup_window, data)
+        if path.exists(self.model.leaderboard_file) and path.isfile(self.model.leaderboard_file):
+            popup_window = self.view.create_popup_window()
+            data = self.model.read_leaderboard_file_contents()
+            self.view.generate_leaderboard(popup_window, data)
+        else:
+            messagebox.showwarning('Message', 'Leaderboard file is missing.\nPlay first!')
