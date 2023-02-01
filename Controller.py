@@ -7,8 +7,10 @@ from View import View
 
 class Controller:
 
-    def __init__(self):
+    def __init__(self, db_name=None):
         self.model = Model()
+        if db_name is not None:
+            self.model.database_name = db_name  # database file changed
         self.view = View(self, self.model)
         self.gametime = GameTime(self.view.lbl_time)  # Create gametime object
 
